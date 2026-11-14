@@ -1,0 +1,195 @@
+# ===========================================================================
+# Multilingual file for the TOS 7 Docker application "filegatordocker".
+# File name MUST be: <appid>.lang.  23-language superset (14 required by TOS).
+# The App Center picks the text matching the user's device language;
+# untranslated nodes fall back to English, which the official guide allows.
+# Fields: name (app title), auth (upstream author), descript (up to 512
+# chars), release_note, important (up to 512 chars).
+# Translations come from tosapp.json "translations"; run
+#   tosdocker lang <app>          to re-render this file
+#   tosdocker translate <app>     to see what still needs translating
+# ===========================================================================
+[en-us]
+name         = "FileGator"
+auth         = "filegator"
+version      = "@@VERSION@@"
+descript     = "FileGator is a self-hosted file manager for your NAS: browse folders in the browser, upload and download, rename, copy, zip and extract, share links with optional passwords, and give different users their own folders and permissions. It supports local storage as well as S3 and WebDAV adapters, and keeps its configuration and files in the application data folder."
+release_note = "1. First release: FileGator 7.16.9 from Docker Hub as a non-root container. Web file manager with multi-user roles, share links, zip/extract and S3/WebDAV adapters; files and config in the application data folder."
+important    = "Requires DockerEngine (installed automatically if missing). The first visit asks you to change the default admin password (admin/admin) - do it immediately. Files live in DockerAppData/filegatordocker/repository and the user/role configuration in .../private. Add users under the admin panel. Plain HTTP; use a TLS reverse proxy before exposing it to the internet."
+
+[zh-cn]
+name         = "FileGator"
+auth         = "filegator"
+version      = "@@VERSION@@"
+descript     = "FileGator 是自建的 NAS 文件管理器：在浏览器里浏览目录、上传下载、重命名、复制、压缩解压，生成带密码的分享链接，还能给不同用户分配各自的目录与权限。支持本地存储以及 S3、WebDAV 适配器，配置与文件都保存在应用数据目录。"
+release_note = "1. 首个版本：基于 Docker Hub 的 FileGator 7.16.9，以非 root 容器运行。多用户文件管理，支持分享链接、压缩解压与 S3/WebDAV 适配；文件与配置保存在应用数据目录。"
+important    = "需要 DockerEngine（缺失时应用中心会自动安装）。首次访问会要求修改默认管理员密码（admin/admin），请立刻改掉。文件保存在 DockerAppData/filegatordocker/repository，用户/角色配置在 .../private；在管理面板里添加用户。界面为纯 HTTP，暴露到公网前请配置带 TLS 的反向代理。"
+
+[zh-hk]
+name         = "FileGator"
+auth         = "filegator"
+version      = "@@VERSION@@"
+descript     = "FileGator 是自建的 NAS 檔案管理器：在瀏覽器裡瀏覽目錄、上傳下載、重新命名、複製、壓縮解壓，產生帶密碼的分享連結，還能給不同使用者分配各自的目錄與權限。支援本機儲存以及 S3、WebDAV 適配器，設定與檔案都保存在應用資料目錄。"
+release_note = "1. 首個版本：基於 Docker Hub 的 FileGator 7.16.9，以非 root 容器運行。多使用者檔案管理，支援分享連結、壓縮解壓與 S3/WebDAV 適配；檔案與設定保存在應用資料目錄。"
+important    = "需要 DockerEngine（缺少時應用中心會自動安裝）。首次存取會要求修改預設管理員密碼（admin/admin），請立刻改掉。檔案保存在 DockerAppData/filegatordocker/repository，使用者/角色設定在 .../private；在管理面板裡新增使用者。介面為純 HTTP，公開到互聯網前請配置帶 TLS 的反向代理。"
+
+[fr-fr]
+name         = "FileGator"
+auth         = "filegator"
+version      = "@@VERSION@@"
+descript     = "FileGator is a self-hosted file manager for your NAS: browse folders in the browser, upload and download, rename, copy, zip and extract, share links with optional passwords, and give different users their own folders and permissions. It supports local storage as well as S3 and WebDAV adapters, and keeps its configuration and files in the application data folder."
+release_note = "1. First release: FileGator 7.16.9 from Docker Hub as a non-root container. Web file manager with multi-user roles, share links, zip/extract and S3/WebDAV adapters; files and config in the application data folder."
+important    = "Requires DockerEngine (installed automatically if missing). The first visit asks you to change the default admin password (admin/admin) - do it immediately. Files live in DockerAppData/filegatordocker/repository and the user/role configuration in .../private. Add users under the admin panel. Plain HTTP; use a TLS reverse proxy before exposing it to the internet."
+
+[de-de]
+name         = "FileGator"
+auth         = "filegator"
+version      = "@@VERSION@@"
+descript     = "FileGator is a self-hosted file manager for your NAS: browse folders in the browser, upload and download, rename, copy, zip and extract, share links with optional passwords, and give different users their own folders and permissions. It supports local storage as well as S3 and WebDAV adapters, and keeps its configuration and files in the application data folder."
+release_note = "1. First release: FileGator 7.16.9 from Docker Hub as a non-root container. Web file manager with multi-user roles, share links, zip/extract and S3/WebDAV adapters; files and config in the application data folder."
+important    = "Requires DockerEngine (installed automatically if missing). The first visit asks you to change the default admin password (admin/admin) - do it immediately. Files live in DockerAppData/filegatordocker/repository and the user/role configuration in .../private. Add users under the admin panel. Plain HTTP; use a TLS reverse proxy before exposing it to the internet."
+
+[it-it]
+name         = "FileGator"
+auth         = "filegator"
+version      = "@@VERSION@@"
+descript     = "FileGator is a self-hosted file manager for your NAS: browse folders in the browser, upload and download, rename, copy, zip and extract, share links with optional passwords, and give different users their own folders and permissions. It supports local storage as well as S3 and WebDAV adapters, and keeps its configuration and files in the application data folder."
+release_note = "1. First release: FileGator 7.16.9 from Docker Hub as a non-root container. Web file manager with multi-user roles, share links, zip/extract and S3/WebDAV adapters; files and config in the application data folder."
+important    = "Requires DockerEngine (installed automatically if missing). The first visit asks you to change the default admin password (admin/admin) - do it immediately. Files live in DockerAppData/filegatordocker/repository and the user/role configuration in .../private. Add users under the admin panel. Plain HTTP; use a TLS reverse proxy before exposing it to the internet."
+
+[es-es]
+name         = "FileGator"
+auth         = "filegator"
+version      = "@@VERSION@@"
+descript     = "FileGator is a self-hosted file manager for your NAS: browse folders in the browser, upload and download, rename, copy, zip and extract, share links with optional passwords, and give different users their own folders and permissions. It supports local storage as well as S3 and WebDAV adapters, and keeps its configuration and files in the application data folder."
+release_note = "1. First release: FileGator 7.16.9 from Docker Hub as a non-root container. Web file manager with multi-user roles, share links, zip/extract and S3/WebDAV adapters; files and config in the application data folder."
+important    = "Requires DockerEngine (installed automatically if missing). The first visit asks you to change the default admin password (admin/admin) - do it immediately. Files live in DockerAppData/filegatordocker/repository and the user/role configuration in .../private. Add users under the admin panel. Plain HTTP; use a TLS reverse proxy before exposing it to the internet."
+
+[hu-hu]
+name         = "FileGator"
+auth         = "filegator"
+version      = "@@VERSION@@"
+descript     = "FileGator is a self-hosted file manager for your NAS: browse folders in the browser, upload and download, rename, copy, zip and extract, share links with optional passwords, and give different users their own folders and permissions. It supports local storage as well as S3 and WebDAV adapters, and keeps its configuration and files in the application data folder."
+release_note = "1. First release: FileGator 7.16.9 from Docker Hub as a non-root container. Web file manager with multi-user roles, share links, zip/extract and S3/WebDAV adapters; files and config in the application data folder."
+important    = "Requires DockerEngine (installed automatically if missing). The first visit asks you to change the default admin password (admin/admin) - do it immediately. Files live in DockerAppData/filegatordocker/repository and the user/role configuration in .../private. Add users under the admin panel. Plain HTTP; use a TLS reverse proxy before exposing it to the internet."
+
+[ja-jp]
+name         = "FileGator"
+auth         = "filegator"
+version      = "@@VERSION@@"
+descript     = "FileGator is a self-hosted file manager for your NAS: browse folders in the browser, upload and download, rename, copy, zip and extract, share links with optional passwords, and give different users their own folders and permissions. It supports local storage as well as S3 and WebDAV adapters, and keeps its configuration and files in the application data folder."
+release_note = "1. First release: FileGator 7.16.9 from Docker Hub as a non-root container. Web file manager with multi-user roles, share links, zip/extract and S3/WebDAV adapters; files and config in the application data folder."
+important    = "Requires DockerEngine (installed automatically if missing). The first visit asks you to change the default admin password (admin/admin) - do it immediately. Files live in DockerAppData/filegatordocker/repository and the user/role configuration in .../private. Add users under the admin panel. Plain HTTP; use a TLS reverse proxy before exposing it to the internet."
+
+[ko-kr]
+name         = "FileGator"
+auth         = "filegator"
+version      = "@@VERSION@@"
+descript     = "FileGator is a self-hosted file manager for your NAS: browse folders in the browser, upload and download, rename, copy, zip and extract, share links with optional passwords, and give different users their own folders and permissions. It supports local storage as well as S3 and WebDAV adapters, and keeps its configuration and files in the application data folder."
+release_note = "1. First release: FileGator 7.16.9 from Docker Hub as a non-root container. Web file manager with multi-user roles, share links, zip/extract and S3/WebDAV adapters; files and config in the application data folder."
+important    = "Requires DockerEngine (installed automatically if missing). The first visit asks you to change the default admin password (admin/admin) - do it immediately. Files live in DockerAppData/filegatordocker/repository and the user/role configuration in .../private. Add users under the admin panel. Plain HTTP; use a TLS reverse proxy before exposing it to the internet."
+
+[pl-pl]
+name         = "FileGator"
+auth         = "filegator"
+version      = "@@VERSION@@"
+descript     = "FileGator is a self-hosted file manager for your NAS: browse folders in the browser, upload and download, rename, copy, zip and extract, share links with optional passwords, and give different users their own folders and permissions. It supports local storage as well as S3 and WebDAV adapters, and keeps its configuration and files in the application data folder."
+release_note = "1. First release: FileGator 7.16.9 from Docker Hub as a non-root container. Web file manager with multi-user roles, share links, zip/extract and S3/WebDAV adapters; files and config in the application data folder."
+important    = "Requires DockerEngine (installed automatically if missing). The first visit asks you to change the default admin password (admin/admin) - do it immediately. Files live in DockerAppData/filegatordocker/repository and the user/role configuration in .../private. Add users under the admin panel. Plain HTTP; use a TLS reverse proxy before exposing it to the internet."
+
+[ru-ru]
+name         = "FileGator"
+auth         = "filegator"
+version      = "@@VERSION@@"
+descript     = "FileGator is a self-hosted file manager for your NAS: browse folders in the browser, upload and download, rename, copy, zip and extract, share links with optional passwords, and give different users their own folders and permissions. It supports local storage as well as S3 and WebDAV adapters, and keeps its configuration and files in the application data folder."
+release_note = "1. First release: FileGator 7.16.9 from Docker Hub as a non-root container. Web file manager with multi-user roles, share links, zip/extract and S3/WebDAV adapters; files and config in the application data folder."
+important    = "Requires DockerEngine (installed automatically if missing). The first visit asks you to change the default admin password (admin/admin) - do it immediately. Files live in DockerAppData/filegatordocker/repository and the user/role configuration in .../private. Add users under the admin panel. Plain HTTP; use a TLS reverse proxy before exposing it to the internet."
+
+[tr-tr]
+name         = "FileGator"
+auth         = "filegator"
+version      = "@@VERSION@@"
+descript     = "FileGator is a self-hosted file manager for your NAS: browse folders in the browser, upload and download, rename, copy, zip and extract, share links with optional passwords, and give different users their own folders and permissions. It supports local storage as well as S3 and WebDAV adapters, and keeps its configuration and files in the application data folder."
+release_note = "1. First release: FileGator 7.16.9 from Docker Hub as a non-root container. Web file manager with multi-user roles, share links, zip/extract and S3/WebDAV adapters; files and config in the application data folder."
+important    = "Requires DockerEngine (installed automatically if missing). The first visit asks you to change the default admin password (admin/admin) - do it immediately. Files live in DockerAppData/filegatordocker/repository and the user/role configuration in .../private. Add users under the admin panel. Plain HTTP; use a TLS reverse proxy before exposing it to the internet."
+
+[pt-pt]
+name         = "FileGator"
+auth         = "filegator"
+version      = "@@VERSION@@"
+descript     = "FileGator is a self-hosted file manager for your NAS: browse folders in the browser, upload and download, rename, copy, zip and extract, share links with optional passwords, and give different users their own folders and permissions. It supports local storage as well as S3 and WebDAV adapters, and keeps its configuration and files in the application data folder."
+release_note = "1. First release: FileGator 7.16.9 from Docker Hub as a non-root container. Web file manager with multi-user roles, share links, zip/extract and S3/WebDAV adapters; files and config in the application data folder."
+important    = "Requires DockerEngine (installed automatically if missing). The first visit asks you to change the default admin password (admin/admin) - do it immediately. Files live in DockerAppData/filegatordocker/repository and the user/role configuration in .../private. Add users under the admin panel. Plain HTTP; use a TLS reverse proxy before exposing it to the internet."
+
+[ar-sa]
+name         = "FileGator"
+auth         = "filegator"
+version      = "@@VERSION@@"
+descript     = "FileGator is a self-hosted file manager for your NAS: browse folders in the browser, upload and download, rename, copy, zip and extract, share links with optional passwords, and give different users their own folders and permissions. It supports local storage as well as S3 and WebDAV adapters, and keeps its configuration and files in the application data folder."
+release_note = "1. First release: FileGator 7.16.9 from Docker Hub as a non-root container. Web file manager with multi-user roles, share links, zip/extract and S3/WebDAV adapters; files and config in the application data folder."
+important    = "Requires DockerEngine (installed automatically if missing). The first visit asks you to change the default admin password (admin/admin) - do it immediately. Files live in DockerAppData/filegatordocker/repository and the user/role configuration in .../private. Add users under the admin panel. Plain HTTP; use a TLS reverse proxy before exposing it to the internet."
+
+[cs-cz]
+name         = "FileGator"
+auth         = "filegator"
+version      = "@@VERSION@@"
+descript     = "FileGator is a self-hosted file manager for your NAS: browse folders in the browser, upload and download, rename, copy, zip and extract, share links with optional passwords, and give different users their own folders and permissions. It supports local storage as well as S3 and WebDAV adapters, and keeps its configuration and files in the application data folder."
+release_note = "1. First release: FileGator 7.16.9 from Docker Hub as a non-root container. Web file manager with multi-user roles, share links, zip/extract and S3/WebDAV adapters; files and config in the application data folder."
+important    = "Requires DockerEngine (installed automatically if missing). The first visit asks you to change the default admin password (admin/admin) - do it immediately. Files live in DockerAppData/filegatordocker/repository and the user/role configuration in .../private. Add users under the admin panel. Plain HTTP; use a TLS reverse proxy before exposing it to the internet."
+
+[he-il]
+name         = "FileGator"
+auth         = "filegator"
+version      = "@@VERSION@@"
+descript     = "FileGator is a self-hosted file manager for your NAS: browse folders in the browser, upload and download, rename, copy, zip and extract, share links with optional passwords, and give different users their own folders and permissions. It supports local storage as well as S3 and WebDAV adapters, and keeps its configuration and files in the application data folder."
+release_note = "1. First release: FileGator 7.16.9 from Docker Hub as a non-root container. Web file manager with multi-user roles, share links, zip/extract and S3/WebDAV adapters; files and config in the application data folder."
+important    = "Requires DockerEngine (installed automatically if missing). The first visit asks you to change the default admin password (admin/admin) - do it immediately. Files live in DockerAppData/filegatordocker/repository and the user/role configuration in .../private. Add users under the admin panel. Plain HTTP; use a TLS reverse proxy before exposing it to the internet."
+
+[id-id]
+name         = "FileGator"
+auth         = "filegator"
+version      = "@@VERSION@@"
+descript     = "FileGator is a self-hosted file manager for your NAS: browse folders in the browser, upload and download, rename, copy, zip and extract, share links with optional passwords, and give different users their own folders and permissions. It supports local storage as well as S3 and WebDAV adapters, and keeps its configuration and files in the application data folder."
+release_note = "1. First release: FileGator 7.16.9 from Docker Hub as a non-root container. Web file manager with multi-user roles, share links, zip/extract and S3/WebDAV adapters; files and config in the application data folder."
+important    = "Requires DockerEngine (installed automatically if missing). The first visit asks you to change the default admin password (admin/admin) - do it immediately. Files live in DockerAppData/filegatordocker/repository and the user/role configuration in .../private. Add users under the admin panel. Plain HTTP; use a TLS reverse proxy before exposing it to the internet."
+
+[nb-no]
+name         = "FileGator"
+auth         = "filegator"
+version      = "@@VERSION@@"
+descript     = "FileGator is a self-hosted file manager for your NAS: browse folders in the browser, upload and download, rename, copy, zip and extract, share links with optional passwords, and give different users their own folders and permissions. It supports local storage as well as S3 and WebDAV adapters, and keeps its configuration and files in the application data folder."
+release_note = "1. First release: FileGator 7.16.9 from Docker Hub as a non-root container. Web file manager with multi-user roles, share links, zip/extract and S3/WebDAV adapters; files and config in the application data folder."
+important    = "Requires DockerEngine (installed automatically if missing). The first visit asks you to change the default admin password (admin/admin) - do it immediately. Files live in DockerAppData/filegatordocker/repository and the user/role configuration in .../private. Add users under the admin panel. Plain HTTP; use a TLS reverse proxy before exposing it to the internet."
+
+[nl-nl]
+name         = "FileGator"
+auth         = "filegator"
+version      = "@@VERSION@@"
+descript     = "FileGator is a self-hosted file manager for your NAS: browse folders in the browser, upload and download, rename, copy, zip and extract, share links with optional passwords, and give different users their own folders and permissions. It supports local storage as well as S3 and WebDAV adapters, and keeps its configuration and files in the application data folder."
+release_note = "1. First release: FileGator 7.16.9 from Docker Hub as a non-root container. Web file manager with multi-user roles, share links, zip/extract and S3/WebDAV adapters; files and config in the application data folder."
+important    = "Requires DockerEngine (installed automatically if missing). The first visit asks you to change the default admin password (admin/admin) - do it immediately. Files live in DockerAppData/filegatordocker/repository and the user/role configuration in .../private. Add users under the admin panel. Plain HTTP; use a TLS reverse proxy before exposing it to the internet."
+
+[sv-se]
+name         = "FileGator"
+auth         = "filegator"
+version      = "@@VERSION@@"
+descript     = "FileGator is a self-hosted file manager for your NAS: browse folders in the browser, upload and download, rename, copy, zip and extract, share links with optional passwords, and give different users their own folders and permissions. It supports local storage as well as S3 and WebDAV adapters, and keeps its configuration and files in the application data folder."
+release_note = "1. First release: FileGator 7.16.9 from Docker Hub as a non-root container. Web file manager with multi-user roles, share links, zip/extract and S3/WebDAV adapters; files and config in the application data folder."
+important    = "Requires DockerEngine (installed automatically if missing). The first visit asks you to change the default admin password (admin/admin) - do it immediately. Files live in DockerAppData/filegatordocker/repository and the user/role configuration in .../private. Add users under the admin panel. Plain HTTP; use a TLS reverse proxy before exposing it to the internet."
+
+[th-th]
+name         = "FileGator"
+auth         = "filegator"
+version      = "@@VERSION@@"
+descript     = "FileGator is a self-hosted file manager for your NAS: browse folders in the browser, upload and download, rename, copy, zip and extract, share links with optional passwords, and give different users their own folders and permissions. It supports local storage as well as S3 and WebDAV adapters, and keeps its configuration and files in the application data folder."
+release_note = "1. First release: FileGator 7.16.9 from Docker Hub as a non-root container. Web file manager with multi-user roles, share links, zip/extract and S3/WebDAV adapters; files and config in the application data folder."
+important    = "Requires DockerEngine (installed automatically if missing). The first visit asks you to change the default admin password (admin/admin) - do it immediately. Files live in DockerAppData/filegatordocker/repository and the user/role configuration in .../private. Add users under the admin panel. Plain HTTP; use a TLS reverse proxy before exposing it to the internet."
+
+[vi-vn]
+name         = "FileGator"
+auth         = "filegator"
+version      = "@@VERSION@@"
+descript     = "FileGator is a self-hosted file manager for your NAS: browse folders in the browser, upload and download, rename, copy, zip and extract, share links with optional passwords, and give different users their own folders and permissions. It supports local storage as well as S3 and WebDAV adapters, and keeps its configuration and files in the application data folder."
+release_note = "1. First release: FileGator 7.16.9 from Docker Hub as a non-root container. Web file manager with multi-user roles, share links, zip/extract and S3/WebDAV adapters; files and config in the application data folder."
+important    = "Requires DockerEngine (installed automatically if missing). The first visit asks you to change the default admin password (admin/admin) - do it immediately. Files live in DockerAppData/filegatordocker/repository and the user/role configuration in .../private. Add users under the admin panel. Plain HTTP; use a TLS reverse proxy before exposing it to the internet."
+
