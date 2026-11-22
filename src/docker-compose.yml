@@ -15,6 +15,13 @@
 #           non-root user, no privileged mode, no network_mode: host, no
 #           cap_add, explicit TZ, a healthcheck on the only service, and
 #           x-app-meta as the last block.
+# Wrapper : the two data folders are bind mounts, so on a fresh install the
+#           image's own private/users.json.blank and private/logs/ are hidden
+#           and FileGator refuses to render ("Folder not writable:
+#           /private/logs/"). The small shell wrapper below creates those
+#           folders, seeds the upstream default accounts once, and then runs
+#           the image's own docker-php-entrypoint + Apache. Nothing else in the
+#           image is touched.
 # Escaping: docker compose interpolates ${VAR}/$VAR in compose files, so any
 #           '$' meant for the shell is written '$$'.
 #
@@ -30,6 +37,10 @@ services:
     container_name: filegatordocker
     restart: unless-stopped
     user: "1000:1000"
+    entrypoint: ["/bin/sh", "-c"]
+    command:
+      - |
+        @@ENTRYPOINT_SH@@
     ports:
       - "8063:8080"
     environment:
